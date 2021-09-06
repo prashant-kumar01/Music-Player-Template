@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninja Studio</title>
+    <meta name="theme-color" content="#2A2747" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./icons.css" />
+    <link rel="stylesheet" href="./dist/css/compressed/carousel.min.css" />
+    <link rel="icon" href="./favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="./animate.min.css" />
+    <meta name="title" content="Ninja Music Studio" />
+    <meta
+      name="description"
+      content="This website can be used to listen to your favourite songs at single place"
+    />
+    <meta name="keywords" content="Music, Songs, Ninja" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Neeraj Gupta" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="page__nav">
+      <div class="page__nav__brand">
+        <a href="./index.html" style="text-decoration: none; color: white">
+          <div class="brand">
+            <img
+              src="./images/music-cd.png"
+              alt="music-cd"
+              width="50"
+              class="animate__animated animate__rotateIn animate__infinite"
+            />
+            <span>ninja<br /><strong>studio</strong></span>
+          </div>
+        </a>
+        <div class="links">
+          <a href="#favorites">favorites</a>
+        </div>
+      </div>
+      <div class="page__nav__profile">
+        <div class="search">
+          <i class="icons search-icon"></i>
+          <input type="text" name="searchbar" placeholder="Search" />
+          <i class="icons mic"></i>
+        </div>
+        <div
+          class="notification animate__animated animate__tada animate__infinite"
+        >
+          <i class="icons bell-fill"></i>
+        </div>
+        <div class="profile"></div>
+      </div>
+    </nav>
+
+    <!-- Body -->
+    <section class="page__body">
+      <!-- Queue Sidebar -->
+      <aside class="page__sidebar">
+        <!-- Queue Sidebar Topbar -->
+        <div class="page__sidebar__topbar">
+          <p class="sidebar__title">Queue</p>
+          <div class="sidebar__dropdown">
+            <input type="checkbox" name="menu" id="checkbox-1" />
+            <label for="checkbox-1">Queue</label>
+            <i class="icons chevron-down"></i>
+            <div id="queue-dropdown">
+              <ul class="dropdown__list">
+                <li>playlists</li>
+                <li>featured songs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Queue Songs -->
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>01</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">Mirage</p>
+              <p class="queue__songs__songs__details__artist">Else</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>02</span>
+            <div class="queue__songs__avatar queue__2"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>03</span>
+            <div class="queue__songs__avatar queue__3"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">new skin</p>
+              <p class="queue__songs__songs__details__artist">flume</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>04</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>05</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>06</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>07</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>08</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>09</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>10</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>11</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>12</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>13</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>14</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>15</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>16</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>17</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>18</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>19</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>20</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>21</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>22</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>23</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>24</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>25</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>26</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>27</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>28</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>29</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>30</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>31</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>32</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>33</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>34</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>35</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+        <div class="queue__songs">
+          <div class="queue__songs__left">
+            <span>36</span>
+            <div class="queue__songs__avatar queue__1"></div>
+            <div class="queue__songs__songs__details">
+              <p class="queue__songs__songs__details__track">worry bout us</p>
+              <p class="queue__songs__songs__details__artist">rosie lowe</p>
+            </div>
+          </div>
+          <div>
+            <i class="icons heart"></i>
+          </div>
+        </div>
+      </aside>
+      <section class="page__content">
+        <!-- Carousel Section -->
+        <section class="page__slider">
+          <section class="page__carousel">
+            <div class="carousel__slide slide__1" id="slide-1"></div>
+            <div class="carousel__slide slide__2" id="slide-2"></div>
+            <div class="carousel__slide slide__3" id="slide-3"></div>
+            <div class="carousel__slide slide__4" id="slide-4"></div>
+          </section>
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+        </section>
+        <!-- Latest Release Section -->
+        <section
+          class="page__latest__release animate__animated animate__slideInLeft"
+        >
+          <button class="next__button"></button>
+          <button class="prev__button"></button>
+          <p class="section__title">latest release</p>
+          <div class="page__latest__release">
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-1"
+                />
+                <label for="latest-release-checkbox-1"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-1"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-2"
+                  class="latest-release-dropdown"
+                />
+                <label for="latest-release-checkbox-2"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-2"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-3"
+                />
+                <label for="latest-release-checkbox-3"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-3"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-4"
+                />
+                <label for="latest-release-checkbox-4"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-4"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-5"
+                />
+                <label for="latest-release-checkbox-5"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-5"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-6"
+                />
+                <label for="latest-release-checkbox-6"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-6"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-7"
+                />
+                <label for="latest-release-checkbox-7"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-7"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-8"
+                />
+                <label for="latest-release-checkbox-8"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-8"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-9"
+                />
+                <label for="latest-release-checkbox-9"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-9"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-10"
+                />
+                <label for="latest-release-checkbox-10"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-10"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Popular Artist Section -->
+        <section
+          class="popular__artists animate__animated animate__slideInLeft animate__delay-1s"
+        >
+          <button class="next__button"></button>
+          <button class="prev__button"></button>
+          <p class="section__title">popular artists</p>
+          <div class="popular__artists">
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image ed__sheeran"></div>
+                <figcaption class="artist__name">ed sheeran</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image coldplay"></div>
+                <figcaption class="artist__name">coldplay</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image zayn"></div>
+                <figcaption class="artist__name">zayn</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image charlie__puth"></div>
+                <figcaption class="artist__name">charlie puth</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image imagine__dragons"></div>
+                <figcaption class="artist__name">imagine dragons</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image bruno__mars"></div>
+                <figcaption class="artist__name">bruno mars</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image ed__sheeran"></div>
+                <figcaption class="artist__name">ed sheeran</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image coldplay"></div>
+                <figcaption class="artist__name">coldplay</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image zayn"></div>
+                <figcaption class="artist__name">zayn</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image charlie__puth"></div>
+                <figcaption class="artist__name">charlie puth</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image imagine__dragons"></div>
+                <figcaption class="artist__name">imagine dragons</figcaption>
+              </figure>
+            </a>
+            <a href="./artist.html">
+              <figure class="artist__details">
+                <div class="artist__image bruno__mars"></div>
+                <figcaption class="artist__name">bruno mars</figcaption>
+              </figure>
+            </a>
+          </div>
+        </section>
+        <!-- Categories -->
+        <section class="music__categories">
+          <button class="next__button"></button>
+          <button class="prev__button"></button>
+          <div class="stations__cover">
+            <img src="./images/music-cd.png" alt="music-cd" width="50" />
+            <p>stations</p>
+          </div>
+          <div class="music__categories category__1"></div>
+          <div class="music__categories category__2"></div>
+          <div class="music__categories category__3"></div>
+          <div class="music__categories category__4"></div>
+          <div class="music__categories category__5"></div>
+          <div class="music__categories category__6"></div>
+          <div class="music__categories category__1"></div>
+          <div class="music__categories category__2"></div>
+          <div class="music__categories category__3"></div>
+          <div class="music__categories category__4"></div>
+          <div class="music__categories category__5"></div>
+          <div class="music__categories category__6"></div>
+        </section>
+        <!-- Playlist Section -->
+        <section class="playlists">
+          <button class="next__button"></button>
+          <button class="prev__button"></button>
+          <div class="playlists__cover party"></div>
+          <div class="playlists__cover electronic"></div>
+          <div class="playlists__cover roadtrip"></div>
+          <div class="playlists__cover party"></div>
+          <div class="playlists__cover electronic"></div>
+          <div class="playlists__cover roadtrip"></div>
+          <div class="playlists__cover party"></div>
+          <div class="playlists__cover electronic"></div>
+          <div class="playlists__cover roadtrip"></div>
+        </section>
+        <!-- Hollywood Section -->
+        <section class="latest__english">
+          <button class="next__button"></button>
+          <button class="prev__button"></button>
+          <p class="section__title">latest english</p>
+          <!-- Track Cards -->
+          <div class="latest__english">
+            <div class="latest__english__song">
+              <div class="track__cover onism"></div>
+              <div class="track__details">
+                <p class="track__details__track">onism</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__english__song">
+              <div class="track__cover onism-2"></div>
+              <div class="track__details">
+                <p class="track__details__track">onism</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__english__song">
+              <div class="track__cover onism-3"></div>
+              <div class="track__details">
+                <p class="track__details__track">onism</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__english__song">
+              <div class="track__cover onism-4"></div>
+              <div class="track__details">
+                <p class="track__details__track">onism</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__english__song">
+              <div class="track__cover onism"></div>
+              <div class="track__details">
+                <p class="track__details__track">onism</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__english__song">
+              <div class="track__cover onism-2"></div>
+              <div class="track__details">
+                <p class="track__details__track">onism</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__english__song">
+              <div class="track__cover onism-3"></div>
+              <div class="track__details">
+                <p class="track__details__track">onism</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__english__song">
+              <div class="track__cover onism-4"></div>
+              <div class="track__details">
+                <p class="track__details__track">onism</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Bollywood Section -->
+        <section class="latest__hindi">
+          <button class="next__button"></button>
+          <button class="prev__button"></button>
+          <p class="section__title">latest hindi</p>
+          <!-- Track Cards -->
+          <div class="latest__hindi">
+            <div class="latest__hindi__song">
+              <div class="track__cover bolly-1"></div>
+              <div class="track__details">
+                <p class="track__details__track">zaroorat</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__hindi__song">
+              <div class="track__cover bolly-2"></div>
+              <div class="track__details">
+                <p class="track__details__track">tujhe bhula dia</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__hindi__song">
+              <div class="track__cover bolly-3"></div>
+              <div class="track__details">
+                <p class="track__details__track">iss qadar</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__hindi__song">
+              <div class="track__cover bolly-4"></div>
+              <div class="track__details">
+                <p class="track__details__track">ta ra rum pum</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__hindi__song">
+              <div class="track__cover bolly-1"></div>
+              <div class="track__details">
+                <p class="track__details__track">zaroorat</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__hindi__song">
+              <div class="track__cover bolly-2"></div>
+              <div class="track__details">
+                <p class="track__details__track">tujhe bhula dia</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__hindi__song">
+              <div class="track__cover bolly-3"></div>
+              <div class="track__details">
+                <p class="track__details__track">iss qadar</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+            <div class="latest__hindi__song">
+              <div class="track__cover bolly-4"></div>
+              <div class="track__details">
+                <p class="track__details__track">ta ra rum pum</p>
+                <p class="track__details__release">aug 11,2017</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- Music Player -->
+      <footer class="page__player">
+        <div class="left__section">
+          <div class="player__current__track track__image"></div>
+          <div class="player__current__track__details">
+            <p class="player__current__track__details__track">
+              <marquee>Imagine by john lennon</marquee>
+            </p>
+            <p class="player__current__track__details__artist">john lennon</p>
+          </div>
+          <div class="player__like__dislike">
+            <i class="icons heart"></i>
+            <i class="icons x-circle"></i>
+          </div>
+        </div>
+        <div class="middle__section">
+          <div class="middle__upper">
+            <i class="icons shuffle"></i>
+            <i class="icons skip-start-fill"></i>
+            <i
+              class="icons play-circle play__button"
+              style="transform: scale(1.5)"
+            ></i>
+            <i class="icons skip-end-fill"></i>
+            <i class="icons arrow-repeat"></i>
+          </div>
+          <div class="middle__lower">
+            <span>1:39</span>
+            <input type="range" name="" id="" />
+            <span>4:44</span>
+          </div>
+        </div>
+        <div class="right__section">
+          <i class="icons music-note-list right__icon"></i>
+          <i class="icons laptop right__icon"></i>
+          <i class="icons volume-up right__icon"></i>
+          <input type="range" name="volume-controller" />
+          <i class="icons arrows-fullscreen right__icon"></i>
+        </div>
+      </footer>
+
+      <!-- Mobile Section Footer -->
+      <footer class="mobile__page__player">
+        <div class="mobile__seeker">
+          <progress value="50" max="100%"></progress>
+        </div>
+        <div class="mobile__page__player">
+          <div class="page__player__content">
+            <div class="page__player__track track__image"></div>
+            <div class="page__player__details">
+              <p class="page__player__details__track">Imagine</p>
+              <p class="page__player__details__artist">John lenon</p>
+            </div>
+          </div>
+          <div class="page__player__controls">
+            <i
+              class="icons play-circle play__button"
+              style="transform: scale(2)"
+            ></i>
+            <i
+              class="icons volume-up right__icon"
+              style="margin: 0; margin-left: 2rem; transform: scale(1.5)"
+            ></i>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

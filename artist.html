@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninja Studio</title>
+    <meta name="theme-color" content="#2A2747" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./icons.css" />
+    <link rel="stylesheet" href="./dist/css/compressed/carousel.min.css" />
+    <link rel="stylesheet" href="./dist/css/compressed/artist.min.css" />
+    <link rel="icon" href="./favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="./animate.min.css" />
+    <meta name="title" content="Ninja Music Studio" />
+    <meta
+      name="description"
+      content="This website can be used to listen to your favourite songs at single place"
+    />
+    <meta name="keywords" content="Music, Songs, Ninja" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Neeraj Gupta" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="page__nav">
+      <div class="page__nav__brand">
+        <a href="./index.html" style="text-decoration: none; color: white">
+          <div class="brand">
+            <img
+              src="./images/music-cd.png"
+              alt="music-cd"
+              width="50"
+              class="animate__animated animate__rotateIn animate__infinite"
+            />
+            <span>ninja<br /><strong>studio</strong></span>
+          </div>
+        </a>
+        <div class="links">
+          <a href="#favorites">favorites</a>
+        </div>
+      </div>
+      <div class="page__nav__profile">
+        <div class="search">
+          <i class="icons search-icon"></i>
+          <input type="text" name="searchbar" placeholder="Search" />
+          <i class="icons mic"></i>
+        </div>
+        <div
+          class="notification animate__animated animate__tada animate__infinite"
+        >
+          <i class="icons bell-fill"></i>
+        </div>
+        <div class="profile"></div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <section class="parent__wrapper">
+      <!-- Left Section -->
+      <div class="px-3">
+        <div class="hero__card w-75 animate__animated animate__backInUp">
+          <div class="hero__card__cover"></div>
+
+          <div class="hero__card__content">
+            <div class="hero__card__details">
+              <span class="hero__card__artist">coldPlay</span>
+              <span class="hero__card__follower__count">851 Followers</span>
+            </div>
+            <p class="hero__card__origin">british band</p>
+            <p class="hero__card__description">
+              Coldplay are a British rock band formed in London in 1996. The
+              performing members comprise vocalist, rhythm guitarist and pianist
+              Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman,
+              and drummer Will Champion. They met at University College London
+              and began playing music together from 1996 to 1998, first calling
+              themselves Pectoralz and then Starfish before finally changing
+              their name to Coldplay.Their creative director and former manager
+              Phil Harvey is considered the fifth member of the band.
+            </p>
+            <button
+              class="hero__card__button animate__animated animate__bounce animate__delay-2s"
+            >
+              play all
+            </button>
+            <span class="hero__card__subscription">follow</span>
+            <p class="hero__card__record">247 tracks | 128 albums</p>
+          </div>
+        </div>
+        <!-- Song Cards -->
+        <div
+          class="artist__songs__card w-100 animate__animated animate__backInUp animate__delay-1s"
+        >
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>02</span>
+                <div class="queue__songs__avatar queue__2"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">
+                    worry bout us
+                  </p>
+                  <p class="queue__songs__songs__details__artist">
+                    rossie lowe
+                  </p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>03</span>
+                <div class="queue__songs__avatar queue__3"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">new skin</p>
+                  <p class="queue__songs__songs__details__artist">flume</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>04</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>05</span>
+                <div class="queue__songs__avatar queue__2"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>06</span>
+                <div class="queue__songs__avatar queue__3"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>07</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>08</span>
+                <div class="queue__songs__avatar queue__2"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>09</span>
+                <div class="queue__songs__avatar queue__3"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>10</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="artist__songs themeDarkBg p-1 w-100 mb-1">
+            <div class="queue__songs m-0">
+              <div class="queue__songs__left">
+                <span>11</span>
+                <div class="queue__songs__avatar queue__2"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+                <i class="icons plus ml-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <aside class="w-25 flex-none artist__page">
+        <!-- Similar Artist -->
+        <div class="similar__artist">
+          <div class="heading">
+            <span class="heading__title">similar artists</span>
+            <span class="heading__expander">view all</span>
+          </div>
+          <!-- Cards -->
+          <div class="similar__artist__content overflow-auto">
+            <div class="latest__release__album mb-1">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-2"
+                  class="latest-release-dropdown"
+                />
+                <label for="latest-release-checkbox-2"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-2"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album mb-1">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-2"
+                  class="latest-release-dropdown"
+                />
+                <label for="latest-release-checkbox-2"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-2"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="latest__release__album mb-1">
+              <div class="album__image"></div>
+              <div class="album__details">
+                <p class="album__title">onism</p>
+                <p class="album__release">Aug 11,2017</p>
+              </div>
+              <div class="album__duration">
+                <input
+                  type="checkbox"
+                  name="three-dots-checkbox"
+                  id="latest-release-checkbox-2"
+                  class="latest-release-dropdown"
+                />
+                <label for="latest-release-checkbox-2"
+                  ><i class="icons three-dots"></i
+                ></label>
+                <p class="album__duration__current">4:44</p>
+                <div
+                  id="latest-release-dropdown-2"
+                  class="latest-release-dropdown"
+                >
+                  <ul>
+                    <li>play now</li>
+                    <li>add to queue</li>
+                    <li>add to favorite</li>
+                    <li>get info</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recently Played -->
+        <div class="recently__played">
+          <div class="heading">
+            <span class="heading__title">recently played</span>
+            <span class="heading__expander">view all</span>
+          </div>
+          <!-- Cards -->
+          <div class="recently__played__content overflow-auto">
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+            <div class="queue__songs mb-1">
+              <div class="queue__songs__left">
+                <span>01</span>
+                <div class="queue__songs__avatar queue__1"></div>
+                <div class="queue__songs__songs__details">
+                  <p class="queue__songs__songs__details__track">Mirage</p>
+                  <p class="queue__songs__songs__details__artist">Else</p>
+                </div>
+              </div>
+              <div>
+                <i class="icons heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Music Player -->
+    <footer class="page__player">
+      <div class="left__section">
+        <div class="player__current__track track__image"></div>
+        <div class="player__current__track__details">
+          <p class="player__current__track__details__track">
+            <marquee>Imagine by john lennon</marquee>
+          </p>
+          <p class="player__current__track__details__artist">john lennon</p>
+        </div>
+        <div class="player__like__dislike">
+          <i class="icons heart"></i>
+          <i class="icons x-circle"></i>
+        </div>
+      </div>
+      <div class="middle__section">
+        <div class="middle__upper">
+          <i class="icons shuffle"></i>
+          <i class="icons skip-start-fill"></i>
+          <i
+            class="icons play-circle play__button"
+            style="transform: scale(1.5)"
+          ></i>
+          <i class="icons skip-end-fill"></i>
+          <i class="icons arrow-repeat"></i>
+        </div>
+        <div class="middle__lower">
+          <span>1:39</span>
+          <input type="range" name="" id="" />
+          <span>4:44</span>
+        </div>
+      </div>
+      <div class="right__section">
+        <i class="icons music-note-list right__icon"></i>
+        <i class="icons laptop right__icon"></i>
+        <i class="icons volume-up right__icon"></i>
+        <input type="range" name="volume-controller" />
+        <i class="icons arrows-fullscreen right__icon"></i>
+      </div>
+    </footer>
+
+    <!-- Mobile Section Footer -->
+    <footer class="mobile__page__player">
+      <div class="mobile__seeker">
+        <progress value="50" max="100%"></progress>
+      </div>
+      <div class="mobile__page__player">
+        <div class="page__player__content">
+          <div class="page__player__track track__image"></div>
+          <div class="page__player__details">
+            <p class="page__player__details__track">Imagine</p>
+            <p class="page__player__details__artist">John lenon</p>
+          </div>
+        </div>
+        <div class="page__player__controls">
+          <i
+            class="icons play-circle play__button"
+            style="transform: scale(2)"
+          ></i>
+          <i
+            class="icons volume-up right__icon"
+            style="margin: 0; margin-left: 2rem; transform: scale(1.5)"
+          ></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

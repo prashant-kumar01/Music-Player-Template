@@ -1,0 +1,63 @@
+.icons {
+  width: 1rem;
+  height: 1rem;
+  padding: 0.3rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.arrow-repeat {
+  background: url("./images/Icons/arrow-repeat.svg");
+}
+.bell-fill {
+  background: url("./images/Icons/bell-fill.svg");
+}
+.chevron-down {
+  background: url("./images/Icons/chevron-down.svg");
+}
+.heart {
+  background: url("./images/Icons/heart.svg");
+  transition: 0.3s ease-in-out;
+}
+.heart:hover {
+  transform: scale(1.2);
+}
+.laptop {
+  background: url("./images/Icons/laptop.svg");
+}
+.mic {
+  background: url("./images/Icons/mic.svg");
+}
+.music-note-list {
+  background: url("./images/Icons/music-note-list.svg");
+}
+.play-circle {
+  background: url("./images/Icons/play-circle.svg");
+}
+.search-icon {
+  background: url("./images/Icons/search.svg");
+}
+.shuffle {
+  background: url("./images/Icons/shuffle.svg");
+}
+.skip-end-fill {
+  background: url("./images/Icons/skip-end-fill.svg");
+}
+.skip-start-fill {
+  background: url("./images/Icons/skip-start-fill.svg");
+}
+.three-dots {
+  background: url("./images/Icons/three-dots.svg");
+  cursor: pointer;
+}
+.volume-up {
+  background: url("./images/Icons/volume-up.svg");
+}
+.x-circle {
+  background: url("./images/Icons/x-circle.svg");
+}
+.arrows-fullscreen {
+  background: url("./images/Icons/arrows-fullscreen.svg");
+}
+.plus {
+  background: url("./images/Icons/plus.svg");
+}

@@ -1,0 +1,262 @@
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.parent__wrapper {
+  padding: 32px 64px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.h-100 {
+  height: 100vh !important;
+}
+
+.flex-none {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: none !important;
+  flex: none !important;
+}
+
+.hero__card {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: var(--themeDarkBg);
+  margin-bottom: 16px;
+  overflow: none;
+}
+
+.hero__card__cover {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  background: url("../../../images/Images/popular-artist-2.jpeg") no-repeat;
+  -webkit-box-shadow: 0px 0px 30px 5px var(--themeDarkBg) inset;
+  box-shadow: 0px 0px 30px 5px var(--themeDarkBg) inset;
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  min-width: 350px;
+  margin: auto;
+}
+
+.hero__card__content {
+  padding: 20px;
+  text-transform: capitalize;
+  overflow: auto;
+  height: 350px;
+}
+
+.hero__card__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.hero__card__artist {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.hero__card__follower__count {
+  font-weight: light;
+  color: silver;
+}
+
+.hero__card__origin {
+  color: silver;
+  margin-bottom: 8px;
+}
+
+.hero__card__description {
+  color: silver;
+  font-weight: light;
+  font-size: small;
+  margin-bottom: 32px;
+}
+
+.hero__card__button {
+  padding: 4px 28px;
+  text-transform: capitalize;
+  color: white;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(slateblue),
+    to(purple)
+  );
+  background: linear-gradient(to right, slateblue, purple);
+  border: none;
+  font-weight: normal;
+  font-size: large;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.hero__card__subscription {
+  margin-left: 64px;
+  cursor: pointer;
+}
+
+.hero__card__record {
+  font-weight: 100;
+  font-size: small;
+}
+
+.themeDarkBg {
+  background-color: var(--themeDarkBg) !important;
+}
+
+.p-1 {
+  padding: 8px !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.w-25 {
+  min-width: 25% !important;
+}
+
+.w-75 {
+  min-width: 75% !important;
+}
+
+.w-100 {
+  min-width: 100% !important;
+}
+
+.mb-1 {
+  margin-bottom: 8px !important;
+}
+
+.ml-3 {
+  margin-left: 24px !important;
+}
+
+.px-3 {
+  padding: 0px 24px !important;
+}
+
+.artist__songs__card {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: auto;
+  height: 200px;
+  margin-bottom: 4rem;
+}
+
+aside {
+  height: 555px;
+}
+
+.similar__artist {
+  height: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+
+.similar__artist__content {
+  height: 100%;
+}
+
+.overflow-auto {
+  overflow: auto !important;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.heading__title {
+  font-size: x-large;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.heading__expander {
+  font-size: small;
+  color: silver;
+  text-transform: capitalize;
+}
+
+.recently__played {
+  overflow: auto;
+  height: 45%;
+}
+
+.recently__played__content {
+  height: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .hero__card__details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .hero__card__subscription {
+    display: block;
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero__card__cover {
+    min-width: 300px;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero__card__cover {
+    min-width: 250px;
+    min-height: 250px;
+  }
+}

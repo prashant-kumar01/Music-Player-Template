@@ -1,0 +1,55 @@
+/* Carousel */
+.page__slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  user-select: none;
+}
+.page__slider > a {
+  background-color: white;
+  min-width: 0.5rem;
+  min-height: 0.5rem;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 0.1rem;
+}
+.page__slider > a:active {
+  background-color: green;
+}
+.page__carousel {
+  padding: 2rem 0px;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  cursor: move;
+}
+
+.slide__1 {
+  background-image: url("../../../images/Images/carousel-1.jpeg");
+}
+.slide__2 {
+  background-image: url("../../../images/Images/carousel-2.gif");
+}
+.slide__3 {
+  background-image: url("../../../images/Images/carousel-3.png");
+}
+.slide__4 {
+  background-image: url("../../../images/Images/carousel-4.gif");
+}
+.carousel__slide {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+  min-width: 100%;
+  scroll-snap-align: start;
+  flex: none;
+  margin-right: 50px;
+  border-radius: 10px;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+}
